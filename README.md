@@ -4,7 +4,7 @@ This style guide is mostly based on the standards that are currently prevalent i
 
 ### Framework Style Guides
 
-  1. [React/React-Native](#https://github.com/getblockco/javascript/tree/main/react)
+  1. [React/React-Native](https://github.com/getblockco/javascript/tree/main/react)
 
 ## Table of Contents
 
