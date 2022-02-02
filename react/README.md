@@ -32,7 +32,7 @@ This style guide is mostly based on the standards that are currently prevalent i
 
 ## Class vs Stateless Components
 
-  Always prefer normal functions (not arrow functions) over classes and use hooks to create stateless functional components:
+  **Always** prefer normal functions (not arrow functions) over classes and use hooks to create stateless functional components:
   
     ```jsx
     // bad
