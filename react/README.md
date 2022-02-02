@@ -30,6 +30,8 @@ This style guide is mostly based on the standards that are currently prevalent i
   - Do not use `React.createElement` unless you’re initializing the app from a file that is not JSX.
   - [`react/forbid-prop-types`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md) will allow `arrays` and `objects` only if it is explicitly noted what `array` and `object` contains, using `arrayOf`, `objectOf`, or `shape`.
 
+**[⬆ back to top](#table-of-contents)**
+
 ## Class vs Stateless Components
 
   **Always** prefer normal functions (not arrow functions) over classes and use hooks to create stateless functional components:
@@ -72,6 +74,9 @@ This style guide is mostly based on the standards that are currently prevalent i
       }
     }
     ```
+    
+**[⬆ back to top](#table-of-contents)**
+
 ## Hooks
 
   Use hooks such as useState, useRef, and useEffect in replace of created classes by using copmonentWillMount, internal states and references. 
@@ -107,12 +112,16 @@ This style guide is mostly based on the standards that are currently prevalent i
    ```
     
    Because hooks will be called in the order they are in the file, always place **useEffect** hooks towards the top of the file in order to get consistent rendering. 
+   
+**[⬆ back to top](#table-of-contents)**
 
 ## Mixins
 
   - [Do not use mixins](https://facebook.github.io/react/blog/2016/07/13/mixins-considered-harmful.html).
 
   > Why? Mixins introduce implicit dependencies, cause name clashes, and cause snowballing complexity. Most use cases for mixins can be accomplished in better ways via components, higher-order components, or utility modules.
+
+**[⬆ back to top](#table-of-contents)**
 
 ## Naming
 
@@ -188,6 +197,8 @@ This style guide is mostly based on the standards that are currently prevalent i
     // good
     <MyComponent variant="fancy" />
     ```
+    
+**[⬆ back to top](#table-of-contents)**
 
 ## Declaration
 
@@ -204,6 +215,8 @@ This style guide is mostly based on the standards that are currently prevalent i
     export default class ReservationCard extends React.Component {
     }
     ```
+    
+**[⬆ back to top](#table-of-contents)**
 
 ## Alignment
 
@@ -271,6 +284,8 @@ This style guide is mostly based on the standards that are currently prevalent i
       />
     )}
     ```
+    
+**[⬆ back to top](#table-of-contents)**
 
 ## Quotes
 
@@ -291,6 +306,8 @@ This style guide is mostly based on the standards that are currently prevalent i
     // good
     <Foo style={{ left: '20px' }} />
     ```
+    
+**[⬆ back to top](#table-of-contents)**
 
 ## Spacing
 
@@ -320,6 +337,8 @@ This style guide is mostly based on the standards that are currently prevalent i
     // good
     <Foo bar={baz} />
     ```
+    
+**[⬆ back to top](#table-of-contents)**
 
 ## Props
 
@@ -515,6 +534,8 @@ We don’t recommend using indexes for keys if the order of items may change.
     return <WrappedComponent {...relevantProps} />
   }
   ```
+  
+**[⬆ back to top](#table-of-contents)**
 
 ## Refs
 
@@ -531,6 +552,8 @@ We don’t recommend using indexes for keys if the order of items may change.
       ref={(ref) => { this.myRef = ref; }}
     />
     ```
+    
+**[⬆ back to top](#table-of-contents)**
 
 ## Parentheses
 
@@ -559,6 +582,8 @@ We don’t recommend using indexes for keys if the order of items may change.
       return <MyComponent>{body}</MyComponent>;
     }
     ```
+    
+**[⬆ back to top](#table-of-contents)**
 
 ## Tags
 
@@ -586,6 +611,8 @@ We don’t recommend using indexes for keys if the order of items may change.
       baz="baz"
     />
     ```
+    
+**[⬆ back to top](#table-of-contents)**
 
 ## Methods
 
@@ -687,6 +714,8 @@ We don’t recommend using indexes for keys if the order of items may change.
       return (<div />);
     }
     ```
+    
+**[⬆ back to top](#table-of-contents)**
 
 ## Ordering
 
@@ -763,6 +792,8 @@ We don’t recommend using indexes for keys if the order of items may change.
   1. *getter methods for `render`* like `getSelectReason()` or `getFooterContent()`
   1. *optional render methods* like `renderNavigation()` or `renderProfilePicture()`
   1. `render`
+
+**[⬆ back to top](#table-of-contents)**
 
 ## `isMounted`
 
