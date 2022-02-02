@@ -1,5 +1,7 @@
 # Check JavaScript Style Guide
 
+This style guide is mostly based on the standards that are currently prevalent in JavaScript and on the AirBnb style guide. Please refer to this witha any styling questions. We use Prettier for maintaing automatic formatting while developing. 
+
 ## Table of Contents
 
   1. [Types](#types)
